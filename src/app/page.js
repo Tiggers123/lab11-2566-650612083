@@ -218,8 +218,13 @@ export default function RegisFormPage() {
 
       {/* Terms and conditions */}
       <div>
-        <input className="me-2" type="checkbox" onClick={cbUserAgreed} />I agree
-        to the terms and conditions
+        <input
+          className="me-2"
+          type="checkbox"
+          onClick={cbUserAgreed}
+          checked={isUserAgreed}
+        />
+        I agree to the terms and conditions
       </div>
 
       {/* Register Button */}
